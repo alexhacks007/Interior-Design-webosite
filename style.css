@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Garamon;
+    
 }
 
-button{
-    background-color:#00b496;
+button {
+    background-color: #00b496;
 }
-.color{
+
+.color {
     color: #00b496;
 }
 
@@ -17,6 +20,7 @@ body {
     background-color: #fcfcfc;
     color: #002032;
 }
+
 .navbar {
     background-color: #2a6b60;
     padding: 10px 20px;
@@ -33,6 +37,8 @@ body {
     color: white;
     font-size: 24px;
     text-decoration: none;
+    font-weight: 800;
+
 }
 
 .navbar-toggler {
@@ -95,7 +101,7 @@ body {
 
 .hero-button {
     text-decoration: none;
-    background-color:  #00b496;
+    background-color: #00b496;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -113,7 +119,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-   
+
 }
 
 .about-section h2 {
@@ -153,6 +159,7 @@ body {
     display: flex;
     width: 100%;
 }
+
 .services-left {
     width: 50%;
     background-image: url("images/img-15.jpg");
@@ -185,11 +192,12 @@ body {
 
 
 .projects-section {
-    padding:20px;
+    padding: 20px;
     text-align: center;
     /* background-color: #fff; */
 }
-.projects-section h2{
+
+.projects-section h2 {
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -206,7 +214,8 @@ body {
     height: 200px;
     overflow: hidden;
 }
-.gallery-item h6{
+
+.gallery-item h6 {
     height: 10%;
 }
 
@@ -265,7 +274,8 @@ body {
     font-weight: bold;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -295,11 +305,12 @@ body {
 
 footer {
     padding: 20px;
-    background-color: #333;
+    background-color: #007a66;
     color: #fff;
     text-align: center;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
@@ -369,6 +380,7 @@ footer {
     background-image: url('image1.jpg');
     margin: 0;
 }
+
 .accordion-block {
     max-width: 600px;
     padding: 10px;
@@ -401,26 +413,31 @@ footer {
 }
 
 
-.accordion-inside{
+.accordion-inside {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.accordion:nth-child(2) .accordion-inside{
+
+.accordion:nth-child(2) .accordion-inside {
     flex-direction: row-reverse;
 }
-.accordion-inside div{
+
+.accordion-inside div {
     width: 50%;
 }
-.accordion-inside div:nth-child(1){
+
+.accordion-inside div:nth-child(1) {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.accordion-inside div:nth-child(2){
+
+.accordion-inside div:nth-child(2) {
     padding: 3%;
 }
-.accordion-inside img{
+
+.accordion-inside img {
     width: 100%;
 }
 
@@ -429,7 +446,7 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #333;
+    background-color: #00b496;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -443,21 +460,20 @@ footer {
     background-color: #555;
 }
 
-.slide
- img {
+.slide img {
     width: 100px;
     height: 100px;
     animation: scroll 60s linear infinite;
-  }
-  
-  .slide-track {
+}
+
+.slide-track {
     width: 100%;
     display: flex;
     gap: 3em;
     overflow: hidden;
-  }
-  
-  .slider-icons {
+}
+
+.slider-icons {
     margin-top: 50px;
     color: #002032;
     display: flex;
@@ -466,20 +482,31 @@ footer {
     align-items: center;
     text-align: center;
     /* background-color: whitesmoke; */
-  }
-.mobile{
+}
+
+.mobile {
     display: none;
 }
-  
-  @keyframes scroll {
-    0% {transform: translateX(0);}
-    100% {transform: translatex(-1000%)}
-  }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translatex(-1000%)
+    }
+}
 
 
 @keyframes fade {
-    from { opacity: 0.5; }
-    to { opacity: 1; }
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 
@@ -510,6 +537,7 @@ footer {
     .navbar-links.show {
         display: flex;
     }
+
     .services-container {
         flex-direction: column;
         align-items: center;
@@ -519,24 +547,29 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    .accordion-inside div{
+
+    .accordion-inside div {
         width: 100%;
     }
-    .accordion-inside{
+
+    .accordion-inside {
         flex-direction: column;
     }
-    .accordion:nth-child(2) .accordion-inside{
+
+    .accordion:nth-child(2) .accordion-inside {
         flex-direction: column;
     }
-    .slider-container{
+
+    .slider-container {
         flex-direction: column;
     }
-    .lab{
+
+    .lab {
         display: none;
     }
-    .mobile{
+
+    .mobile {
         display: block;
     }
-    
-}
 
+}
